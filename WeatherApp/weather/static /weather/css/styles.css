@@ -1,0 +1,101 @@
+body{text-align:center;font-family:arial;font-size:15px;}
+h2{font-size:15px;font-weight:normal;line-height:normal;}
+a{text-decoration:none;}
+.main{width:100%;text-align:center;}
+.sorter{cursor:pointer;}
+.pushdown {width:800px;float:left;margin:auto;}
+.colhd {width:200px;float:left;}
+.telem {min-height:225px;max-height:352px;float:left;cursor:pointer;padding-right:10px;}
+.mtelem {width:95%;float:left;cursor:pointer;}
+.mtelemimg {width:100%;}
+
+.spacer {height:20px;}
+
+.logo_box{position:absolute;top:0px;width:100%;text-align:center;margin:auto;}
+.logo{width:100%;text-align:center;margin:auto;}
+
+.menu-bar{position:absolute;left:20px;width:95%;height:20px;min-width:1200px;text-align:center;background-color:#F481CA;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#000000;color:#FFFFFF}
+
+#menu-bar{top:131px;display:none;}
+#menu-bar2{top:161px;display:none}
+
+@media only screen and (min-width: 600px)
+{
+ .logo_box{position:absolute;top:0px;left:20px;width:95%;height:130px;text-align:center;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#000000;margin:auto;}
+ .logo{float:left;width:200px;height:130px;text-align:left;margin:auto;}
+ .header{width:600px;height:40px;text-align:center;margin:auto;font-size:12px;}
+ .sorthd{width:150px;float:left;font-weight:bold;}
+ .links{float:right;width:200px;text-align:left;margin:auto;margin-top:25px;}
+  #menu-bar{top:131px;display:block;}
+  #menu-bar2{top:161px;display:block;}
+
+}
+@media only screen and (min-width: 800px)
+{
+ .logo_box{position:absolute;top:0px;left:20px;width:95%;height:130px;text-align:center;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#000000;margin:auto;}
+ .logo{float:left;width:200px;height:130px;text-align:left;margin:auto;}
+ .header{width:600px;height:40px;text-align:center;margin:auto;font-size:12px;}
+ .sorthd{width:150px;float:left;font-weight:bold;}
+ .links{float:right;width:200px;text-align:left;margin:auto;margin-top:25px;}
+  #menu-bar{top:131px;display:block;}
+  #menu-bar2{top:161px;display:block;}
+
+}
+
+#chatdiv{position:relative;top:191px;width:90%;height:75%;text-align:center;margin:auto;overflow:auto;padding-left:25px;}
+#chatdiv p{text-align:left;}
+#chatdiv h1{font-size:12pt;font-weight:normal;text-align:left;}
+#chatdiv h2{font-size:15px;font-weight:normal;text-align:left;}
+#chatdiv ul{text-align:left;}
+#chatdiv li{text-align:left;}
+#chatdiv a{text-decoration:none;color:#000000;}
+
+#footer{position:relative;top:200px;width:100%;text-align:center;margin:auto;background-color:#FFFFF;}
+
+
+#titlediv{height:25px;margin-auto;}
+#titlediv h1{font-size:20px;}
+
+#currshow {position:absolute;top:50px;left:370px;display:none;text-align:center;margin:auto;background-color:#FFFFFF;border-style:solid;border-width:1px;border-color:#000000;}
+#currshow_name {float:left;margin-left:20px;margin-top:10px;}
+#currshow_button {float:right;width:75px;text-align:center;;margin-top:5px;margin-right:10px;}
+
+#currshow1 {position:absolute;top:50px;left:50px;display:none;text-align:center;margin:auto;background-color:#FFFFFF;border-style:solid;border-width:1px;border-color:#000000;}
+#currshow1_name {float:left;margin-left:20px;margin-top:10px;}
+#currshow1_button {float:right;width:75px;text-align:center;;margin-top:5px;margin-right:10px;}
+
+#currshow2 {position:absolute;top:50px;left:850px;display:none;text-align:center;margin:auto;background-color:#FFFFFF;border-style:solid;border-width:1px;border-color:#000000;}
+#currshow2_name {float:left;margin-left:20px;margin-top:10px;}
+#currshow2_button {float:right;width:75px;text-align:center;;margin-top:5px;margin-right:10px;}
+
+
+#warningdiv{font-size:10pt;top:50px;width:600px;height:550px;margin:auto;background-color:#FFFFFF;border-style:solid;border-width:1ps;border-color:#000000;background-color:#FFFFFF;background-image: url('//www.camfoxes.com/images/camfoxesbackground.jpg');}
+#warningdiv h1{font-size:14pt;font-weight:bold;}
+#warningdiv h2{font-size:12pt;font-weight:bold;margin-left:10px;margin-right:10px;}
+#warningtop {position:absolute;top:0px;left:0px;width:100%;height:100%;display:block;text-align:center;}
+#warningframe {position:fixed;width:100%;height:100%;background-image: url('//www.camfoxes.com/images/frosty.png');display:none;text-align:center;}
+
+
+.menu-item-no-float{width:175px;font-weight:bold;cursor:pointer;}
+.menu-item-no-float a{text-decoration:none;color:#ffffff;text-shadow: 2px 2px 4px #000000;}
+
+.menu-item{width:175px;float:left;font-weight:bold;cursor:pointer;}
+.menu-item a{text-decoration:none;color:#ffffff;text-shadow: 2px 2px 4px #000000;}
+
+.pin{margin-left:35px;margin-right:35px;font-weight:bold;text-align:left;}
+.pno{margin-left:50px;margin-right:5px;text-align:left;}
+.enterlink{text-align:center;font-size:14pt;font-weight:bold;text-align:center;}
+.exitlink{text-align:center;font-size:12pt;font-weight:bold;text-align:center;}
+
+.cross-bar{left:20px;width:100%;height:20px;text-align:center;background-color:#F481CA;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;color:#FFFFFF}
+
+.header1{font-size:48pt;text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;line-height:100%;color:#FF0101;}
+.header4{font-size:60pt;font-weight:bold;text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;line-height:100%;color:#FF0101;}
+.linktext{font-size:14pt;font-weight:bold;text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;line-height:100%;color:#FF0101;}
+.linktext1{font-size:24pt;font-weight:bold;text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;line-height:100%;color:#FF0101;}
+
+#info_div{font-size:10pt;position:relative;top:50px;width:600px;height:550px;margin:auto;background-color:#FFFFFF;border-style:solid;border-width:1ps;border-color:#000000;background-color:#FFFFFF;background-image: url('//www.camfoxes.com/images/camfoxesbackground.jpg');}
+#info_div h1{font-size:14pt;font-weight:bold;}
+#info_div h2{font-size:12pt;font-weight:bold;margin-left:10px;margin-right:10px;}
+#info_top {position:absolute;top:0px;left:0px;width:100%;height:100%;display:block;text-align:center;}
+#info_frame {width:100%;height:100%;background-image: url('//www.camfoxes.com/images/frosty.png');display:none;text-align:center;}
